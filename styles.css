@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    background-color: rgb(144, 15, 161);
+    width: 40%;
+    margin: auto;
+    padding: 50px;
+}
+
+label {
+    color: white;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input[type=text],
+[type=email],
+[type=password] {
+    margin: 5px 0 10px 0;
+    width: 100%;
+    padding: 5px;
+}
+
+input[type=submit] {
+    width: 30%;
+    height: 30px;
+    margin-top: 10px;
+    border: 0;
+    background-color: seagreen;
+}
